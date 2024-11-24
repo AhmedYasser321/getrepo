@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma, Arial;
+}
+
+
+.container{
+    margin: auto;
+}
+.container .get-repose{
+}
+
+@media(max-width:424px){
+    .container{
+        width: 300px;
+    }
+}
+@media(min-width:425px) and (max-width:767px){
+    .container{
+        width: 400px;
+    }
+}
+@media(min-width:1024px){
+    .container{
+        width: 800px;
+    }
+}
+
+
+.get-repose{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input {
+    padding: 20px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+@media(max-width:424px){
+    .input{
+        width: 250px;
+    }
+}
+@media(min-width:425px) and (max-width:767px){
+   input{
+        width: 350px;
+    }
+}
+@media(min-width:768px){
+    input{
+        width: 600px;
+    }
+}
+
+button{
+    width: fit-content;
+    padding:10px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.repo{
+    background-color: #ddd;
+    display: block;
+    padding: 20px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.reponame{
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media(max-width:424px){
+    .reponame {  
+        font-size: 12px;
+    }
+}
+@media(min-width:425px){
+    .reponame {
+        font-size: 14px;
+    }
+}
+.star{
+    font-size: 16px;
+    color: #FF5722;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2015bd;
+}
+.reponame:not(:last-child){
+    margin-bottom: 15px;
+}
+
+
+
